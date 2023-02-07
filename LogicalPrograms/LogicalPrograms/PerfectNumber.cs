@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LogicalPrograms
 {
@@ -15,7 +11,7 @@ namespace LogicalPrograms
             Console.Write("Enter a number: ");
             int number = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 1; i <= number/2 ; i++)
+            for (int i = 1; i <= number / 2; i++)
             {
                 if (number % i == 0)
                     sum += i;
@@ -24,9 +20,6 @@ namespace LogicalPrograms
                 Console.WriteLine($">>>>{number} is perfect number");
             else
                 Console.WriteLine($">>>>{number} is not perfect number");
-
-            Program.Main();
-
         }
     }
 }

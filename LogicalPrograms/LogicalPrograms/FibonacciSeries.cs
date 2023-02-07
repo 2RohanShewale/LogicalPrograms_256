@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Channels;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LogicalPrograms
 {
@@ -11,7 +6,7 @@ namespace LogicalPrograms
     {
         int firstNumber = 0;
         int secondNumber = 1;
-        int fibonacciNumber ;
+        int fibonacciNumber;
         public void Series()
         {
             Console.WriteLine("*_____Fibonacci Series_____*");
@@ -33,7 +28,6 @@ namespace LogicalPrograms
                 }
                 Console.WriteLine(fibonacciNumber);
             }
-            Program.Main();
         }
     }
 }

@@ -33,7 +33,6 @@ namespace LogicalPrograms
             else
                 Console.WriteLine($">>>> {number} is not a prime number.");
 
-            Program.Main();
         }
     }
 }
