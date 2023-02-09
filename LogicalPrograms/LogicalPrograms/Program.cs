@@ -10,8 +10,8 @@ namespace LogicalPrograms
     {
         public static void Main()
         {
-            Console.WriteLine("*________Logical Programs________*");
-            Console.WriteLine("1. Fibonacci series\n2. Perfect Number\n3. Prime Numbers\n4. Reverse a number");
+            Console.WriteLine("\n*________Logical Programs________*");
+            Console.WriteLine("1. Fibonacci series\n2. Perfect Number\n3. Prime Numbers\n4. Reverse a number\n5.Coupon Number");
             Console.Write("Choose Option: ");
             int option = Convert.ToInt32(Console.ReadLine());
 
@@ -32,6 +32,10 @@ namespace LogicalPrograms
                 case 4:
                     ReverseNumber reverse= new ReverseNumber(); 
                     reverse.Number();
+                    break;
+                case 5:
+                    GenerateCoupon coupon= new GenerateCoupon();
+                    coupon.CouponNumber();
                     break;
             }
 
